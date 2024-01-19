@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>
+    <h1>Here We Will Learn About </h1>
+    <h3>Web Form </h3>
+    In this form there are two important things<br>
+    1. Method (how we want to send the data POST or GET )<br>
+    2. Action (url of the serevr where we want to send the data of the form) <br>
+
+    <h2>Elements in Form</h2>
+    <ol>
+        <li>input --> use to take inputs</li>
+        Attributes:
+        <ul>
+            <li>type --> pre defined values (string)</li>
+            <ul>
+                <li>text</li>
+                <li>password</li>
+                <li>button</li>
+                <li>radio</li>
+                <li>checkboxes</li>
+                <li>file</li>
+                <li>submit</li>
+                <li>reset</li>
+                <li>image</li>
+            </ul>
+            <li>name --> user defined values (for server use)</li>
+            <li>value --> empty ! by default , in case of input tag</li>
+            <li>placeholder</li>
+        </ul>
+        <li>Textarea</li>
+        <li>Select Box</li>
+        <ul>
+            <li>option</li>
+        </ul>
+
+    </ol>
+    <br><br>
+    </p>
+    <hr>
+    <h2> Registration Form </h2>
+
+    <form method="POST">
+        <h3>User Details</h3>
+        <p>Name: <input type="text" name="fname"></p>
+        <p>Male: <input type="radio" name=gender>
+            Female: <input type="radio" name=gender></p>
+        <p>Address: <input type="textarea"  name="add"></p>
+        <p>Email: <input type="email" name="email"></p>
+        <p>Pincode: <input type="number" name=pin></p>
+        <br>
+
+        <h3>Card Details</h3>
+        <p>Card Type:
+            <select name="card">
+            <option value="credit">Credit Card</option>
+            <option value"debit">Debit Card</option>
+        </select>
+        </p>
+        <p>Card Number: <input type="number" name="cnumber"></p>
+        <p>Expiration Date: <input type="date" name="expDate"></p>
+        <p>CVV: <input type="number" name="cvv"></p>
+
+        <input type="button" value="Pay Now"></p>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
