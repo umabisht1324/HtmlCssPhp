@@ -49,28 +49,43 @@
     <hr>
     <h2> Registration Form </h2>
 
-    <form method="POST">
-        <h3>User Details</h3>
-        <p>Name: <input type="text" name="fname"></p>
-        <p>Male: <input type="radio" name=gender>
-            Female: <input type="radio" name=gender></p>
-        <p>Address: <input type="textarea"  name="add"></p>
-        <p>Email: <input type="email" name="email"></p>
-        <p>Pincode: <input type="number" name=pin></p>
+    <form  action="tuts1.html" method="post">
+
+        <fieldset>
+            <legend>
+                <h3>User Details</h3>
+            </legend>
+            <p>Name: <input type="text" name="fname" required ></p>
+
+            <!-- <fieldset>
+                <legend>GENDER</legend> -->
+            Gender:<br>
+            <p>Male: <input type="radio" name=gender>
+                Female: <input type="radio" name=gender></p>
+            <!-- </fieldset> -->
+
+            <p>Address: <textarea name="address" cols="30" rows="10"></textarea></p>
+            <p>Email: <input type="email" name="email"></p>
+            <p>Pincode: <input type="number" name=pin></p>
+            <br>
+        </fieldset>
+
+
+        <fieldset>
+            <legend><h3>Card Details</h3></legend>
+            <p>Card Type:
+                <select name="card">
+                    <option value="">---selcet a card type---</option>
+                    <option value="credit">Credit Card</option>
+                    <option value="debit">Debit Card</option>
+                </select>
+            </p>
+            <p>Card Number: <input type="number" name="cnumber"></p>
+            <p>Expiration Date: <input type="date" name="expDate"></p>
+            <p>CVV: <input type="number" name="cvv"></p>
+        </fieldset>
         <br>
-
-        <h3>Card Details</h3>
-        <p>Card Type:
-            <select name="card">
-            <option value="credit">Credit Card</option>
-            <option value"debit">Debit Card</option>
-        </select>
-        </p>
-        <p>Card Number: <input type="number" name="cnumber"></p>
-        <p>Expiration Date: <input type="date" name="expDate"></p>
-        <p>CVV: <input type="number" name="cvv"></p>
-
-        <input type="button" value="Pay Now"></p>
+        <input type="submit" value="Pay Now"></p>
     </form>
 
 
