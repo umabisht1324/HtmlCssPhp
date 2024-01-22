@@ -1,0 +1,8 @@
+p,a{
+    color: green;
+}
+
+span.special{
+    color: brown;
+    font-weight: bold;
+}
