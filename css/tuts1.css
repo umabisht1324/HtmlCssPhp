@@ -1,8 +1,22 @@
-p,a{
+p{
     color: green;
 }
 
 span.special{
     color: brown;
     font-weight: bold;
+}
+
+a:hover{/*Pseude Class Selector */
+    color: chartreuse;
+    text-decoration: none;
+
+}
+body h1+p .special{
+    color: yellow;
+    background-color: black;
+}
+#one{
+    color: aqua;
+    background-color: black;
 }

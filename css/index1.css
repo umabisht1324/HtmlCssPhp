@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(73, 70, 70);
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h2{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.navbar{
+    background-color: rgb(14, 13, 13);
+    height: 100px;
+    border-radius: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.navitems{
+    text-align: right;
+}
+
+.navitems li{
+    display: inline;
+    margin: 10px 24px 0px 40px;
+    font-style: normal;
+    font-size: 25px;
+}

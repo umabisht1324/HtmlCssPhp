@@ -1,0 +1,31 @@
+#box1 {
+    height: 500px;
+    /* width: 500px; */
+
+    /* background-image: url(../images/bot.jpg); */
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-attachment:scroll;
+    background-position: center;
+}
+
+.b1{
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    text-decoration: dashed;
+    text-shadow: 0px;
+    letter-spacing:  2px;
+    line-height: 1.5;
+    border: 20px solid black;
+}
+
+h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 2px 2px 9px black ;
+}
+
+

@@ -1,0 +1,39 @@
+div{
+    padding: 10px;
+    height: 900px;
+    width: 900px;
+    border: 5px solid black;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+.box2{
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+}
+.box3{
+    background-color:brown;
+    height: 100px;
+    width: 100px;
+}
+.box4{
+    background-color:darkcyan;
+    height: 100px;
+    width: 100px;
+}
+.box5{
+    background-color:hotpink;
+    height: 100px;
+    width: 100px;
+}
+.box6{
+    background-color:darkgray;
+    height: 100px;
+    width: 100px;
+}
