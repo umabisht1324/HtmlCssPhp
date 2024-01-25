@@ -21,6 +21,13 @@ h2{
     align-items: center;
 }
 
+
+.logo{
+    background-image: url("../images/bot.jpg");
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
 li{
     list-style: none;
 }
