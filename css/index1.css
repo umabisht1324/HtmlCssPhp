@@ -23,6 +23,7 @@ h2{
 
 
 .logo{
+    background-color: aqua;
     background-image: url("../images/bot.jpg");
     background-size: 20px;
     background-repeat: no-repeat;
