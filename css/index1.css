@@ -23,11 +23,22 @@ h2{
 
 
 .logo{
-    background-color: aqua;
+    /* background-color: aqua; */
+    height: 50px;
+    width: 90px;
     background-image: url("../images/bot.jpg");
-    background-size: 20px;
+    background-size: 90px;
     background-repeat: no-repeat;
+    position: relative;
+    top: 0px;
+    left: 40px;
+    border-radius: 100px ;
 }
+.logo:hover {
+    border-color: red; /* Change border color on hover */
+    transform: scale(1.1); /* Increase size on hover */
+}
+
 
 li{
     list-style: none;
@@ -39,13 +50,21 @@ a{
     position: relative;
 }
 
-.navitems{
-    text-align: right;
+.navitems div {
+    position: relative;
+    right: 25px;
+    display: inline-block; /* Ensure each div is displayed inline */
+    justify-content: space-between;
 }
 
-.navitems li{
-    display: inline;
-    margin: 10px 24px 0px 40px;
-    font-style: normal;
+.navitems li a {
+    display: block; /* Make anchor elements fill the div */
+    margin: 10px; /* Add margin around anchor elements */
     font-size: 25px;
+    transition: transform 0.3s; /* Add transition for smooth animation */
 }
+
+.navitems li a:hover {
+    transform: scale(1.1); /* Scale up anchor element on hover */
+}
+

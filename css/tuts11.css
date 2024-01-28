@@ -1,16 +1,35 @@
-div{
+.container{
+    height: 400px;
+    width: 800px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1{
+    height: 400px;
+    width: 800px;
+    border: 3px solid black;
+    
+}
+/* div{
     padding: 10px;
-    height: 900px;
+    height: 500px;
     width: 900px;
     border: 5px solid black;
     display: inline-block;
     justify-content: center;
     align-items: center;
-}
+} */
+
 .box1{
     background-color: aqua;
     height: 100px;
     width: 100px;
+    flex: 0.33;
 }
 .box2{
     background-color:blue;
@@ -33,6 +52,55 @@ div{
     width: 100px;
 }
 .box6{
+    background-color:darkgray;
+    height: 100px;
+    width: 100px;
+}
+
+
+/* Container 2 --> inline block */
+
+
+.box{
+    display: inline-block;
+    vertical-align: end;
+    /* margin: 10px; equal margin on all sides */
+    margin: 10px 20px;
+}
+.box:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    /* border-radius: 20px; */
+    /* font-size: large; */
+}
+
+#box1{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    flex: 0.33;
+}
+#box2{
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+}
+#box3{
+    background-color:brown;
+    height: 100px;
+    width: 100px;
+}
+#box4{
+    background-color:darkcyan;
+    height: 100px;
+    width: 100px;
+}
+#box5{
+    background-color:hotpink;
+    height: 100px;
+    width: 100px;
+}
+#box6{
     background-color:darkgray;
     height: 100px;
     width: 100px;
